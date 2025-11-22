@@ -8,7 +8,7 @@ overflow: hidden;
 
 h1 {
 background-color: powderblue;
-border-left-style: solid; red;
+border-left: 6px solid red;
 color: #0073C5;
 }
 
