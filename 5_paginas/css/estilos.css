@@ -1,6 +1,9 @@
 body {
 text-align: center;
-background-image: url("fondo.jpg");
+background-color: orange;
+background-size: cover;
+background-attachment: fixed;
+overflow: hidden;
 }
 
 h1 {
