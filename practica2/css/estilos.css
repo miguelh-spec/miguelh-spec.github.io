@@ -1,0 +1,105 @@
+*{
+
+}
+
+body {
+background-color: #009ddb;
+}
+
+h1 {
+text-align: center;
+
+background-color: #0bffae;
+
+
+}
+
+img {
+/*float: right;*/
+border: 5px solid #000000;
+}
+
+ul {
+text-align: center;
+padding: 0;
+
+}
+
+li {
+display: inline;
+border-left: 5px solid red;
+
+}
+
+p {
+border: 4px dashed #000000;  
+}
+
+#header {
+ 
+}
+
+#content{
+border-top: 5px solid #000000;
+
+}
+
+#text {
+text-indent: 40px;
+  
+}
+
+#text p {
+background-color: #c2b500;
+}
+
+#text p:first-child {
+background-image: url(../images/fondoParrafo.png);
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+
+#text p:last-child {
+background-color: #c2b500;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px; 
+}
+
+#menu {
+
+}
+
+#menu a{
+
+}
+
+
+#menu li{
+
+}
+
+#menu li a:hover{
+
+}
+
+#footer{
+border-top: 5px solid #000000;
+text-align: center;
+background-color: #6856c9;
+
+}
+
+#footer a{
+
+}
+
+#footer a:hover{
+
+}
+#image {
+
+}
+
+@media all and (max-width: 500px) {
+
+}
