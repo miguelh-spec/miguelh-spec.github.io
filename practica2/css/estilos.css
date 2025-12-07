@@ -111,7 +111,9 @@ text-align: right;
   margin-right: 0px;
   margin-left: 0px;
   width: 90%;
-  
  }
+ #image {
+  text-align: center;
+}
  
 }
