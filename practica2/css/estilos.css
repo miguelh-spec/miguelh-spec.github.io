@@ -71,7 +71,7 @@ text-align: center;
 }
 
 #menu a{
-
+text-decoration: none;
 }
 
 
@@ -90,11 +90,10 @@ border-bottom: 2px solid red;
 border-top: 5px solid #000000;
 text-align: center;
 background-color: #6856c9;
-
 }
 
 #footer a{
-
+ 
 }
 
 #footer a:hover{
@@ -102,7 +101,6 @@ background-color: #6856c9;
 }
 #image {
 text-align: right;
-
 }
 
 @media all and (max-width: 500px) {
