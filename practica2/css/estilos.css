@@ -31,7 +31,7 @@ border-left: 5px solid red;
 }
 
 p {
-border: 5px dashed #000000;  
+¡'
 }
 
 #header {
@@ -48,6 +48,7 @@ text-indent: 40px;
 }
 
 #text p {
+border: 5px dashed #000000;  
 background-color: #c2b500;
 }
 
