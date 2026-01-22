@@ -1,0 +1,133 @@
+*{
+  margin: 0px auto;
+}
+
+body {
+  background: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #5B3B1A;
+}
+
+img {
+  border: solid 4px #5B3B1A;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  color: white;
+}
+
+p {
+  margin-bottom: 8px;
+  line-height: 1.4em;
+}
+
+#header {
+  margin-top: 35px;
+  text-align: center;
+  background-color: #5B3B1A;
+  border-bottom: 5px solid #E0B88B;
+  border-top: 5px solid #E0B88B;
+  color: white;
+  padding: 15px 0;
+}
+
+#menu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-align: center;  
+  background-color: #333333;
+  border-bottom: 2px solid #5B3B1A;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+
+#menu a{
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+#menu li{
+  display: inline;
+}
+
+#menu li a:hover{
+  text-decoration: underline;
+  text-decoration-color: #E0B88B;
+  background-color: #5B3B1A;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  border-top: 5px solid #5B3B1A;
+  clear: both;
+  padding: 10px 0;
+}
+
+#footer a{
+  color: #E0B88B;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  color: white;
+  background-color: transparent;
+}
+
+#imageRight { float:right; text-align:center; padding-bottom:5px; }
+#textMain { clear: both; }
+#imageToHide { float:left; text-align:center; margin-bottom:40px; }
+#cookieEU {
+  position:absolute; top:120px; left:25%; right:25%;
+  border:2px solid #5B3B1A;
+  background-color:white;
+  padding-bottom:5px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.4);
+}
+#textOverflow{
+  overflow-y:scroll; overflow-x:hidden;
+  height:250px;
+  text-align:justify;
+  border: 4px solid #5B3B1A;
+  background-color:white;
+  padding:20px;
+}
+
+#textCentral{
+  margin:10px 250px;
+  padding:15px;
+  border:4px dashed #5B3B1A;
+  background-color:white;
+  border-radius:20px;
+}
+
+.button {
+  background-color:#5B3B1A;
+  border:none;
+  color:white;
+  padding:10px 20px;
+  display:inline-block;
+  font-size:15px;
+  border-radius:6px;
+}
+
+.button:hover {
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
