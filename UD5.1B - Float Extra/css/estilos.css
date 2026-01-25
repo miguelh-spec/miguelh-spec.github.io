@@ -131,3 +131,21 @@ p {
 .button:hover {
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
 }
+
+@media (max-width: 768px) {
+  
+  #textCentral {
+    margin: 20px 10px;
+    max-width: 95%;
+  }
+
+  #imageRight img, #imageToHide img {
+    max-width: 90%;
+    height: auto;
+  }
+ 
+  #textOverflow {
+    margin: 20px 10px;
+    max-width: 95%;
+  }
+  }
